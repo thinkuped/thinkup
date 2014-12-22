@@ -1,0 +1,242 @@
+
+.bg {
+top:0;
+bottom:0;
+    position:fixed;
+    width: 100%;
+height: 100%;
+opacity:0.22;
+	background-image:url("images/4.jpg");
+	
+}
+.bg:after{
+content: "";
+width: 100%;
+position:absolute;
+height: 100%;
+
+top: 0;
+  bottom: 0;
+//	background-image:url("images/1.jpg");
+//	opacity:0.2;
+z-index:-1;
+ }
+
+
+body{
+position:relative;
+	font-family: 'Noto Sans', sans-serif;
+	margin:0px;
+	color: #242424;
+z-index:1;
+
+}
+
+
+.message {
+//opacity: 1;
+
+}
+
+.message_title {
+    text-decoration: underline;
+}
+
+header{
+    background-color: #b23d3c;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 100;
+	text-decoration: none;
+	padding: 3px;
+	padding-top: 5px;
+	padding-left: 2em;
+position:relative;
+z-index:1;
+}
+
+#site-title{
+	background-color: #b23d3c;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 900;
+	text-decoration: none;
+	line-height: 48px;
+	font-style: normal;
+	z-index:1;
+}
+
+#heading1{
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #242424;
+}
+
+#heading1:hover{
+	color: #E74F4E;
+}
+
+article{
+        margin-left: 9%;
+	padding-left: 25%;
+	padding-right: 8%;
+	padding-top: 2.75%;
+	padding-bottom: 2.75%;
+	font-size: 16px;
+	line-height: 24px;
+	
+}
+
+#email{
+	text-decoration: none;
+	font-weight: bold;
+	color: #E74F4E;
+}
+#email:hover{
+	color: #242424;
+}
+
+footer{
+	background-color: #403F3F;
+	color: #D2CFCF;
+	font-size: 14px;
+	height: 72px;
+	line-height: 48px;
+	text-align: center;
+	vertical-align: bottom;
+	letter-spacing: 2px;
+position:relative;
+z-index:1;
+}
+
+a:hover { 
+     color: #242424;
+}
+   
+<-- nav{
+<-- position: fixed; -->
+	padding-top: 3.75%;
+        margin-top: 10%;
+	width: 20%;
+	float: left;
+margin-left: 4%;
+/border: 2px dotted;
+//border-style: ridge;
+//border-radius: 80px;
+border-color: black;
+background-color:  rgba(100,100,100,0.1);
+} -->
+
+
+.face{
+    font-color:white;
+    left:40px;
+    height:180px;
+    overflow: hidden;
+    position: absolute;
+    width: 200px;
+}
+
+
+/* .top{
+background-color:  rgba(178, 61, 60, 0.9);
+    
+height:40px;
+    width: 220px;
+    top: 155px;
+    left: 109px;    
+   -webkit-transform: rotate(35deg) skew(-35deg, -35deg);
+   -moz-transform: rotate(35deg) skew(-35deg, -35deg);
+-ms-transform: rotate(35deg) skew(-35deg, -35deg);    
+//opacity: 0.4;
+ border: 2px solid;
+border-color:black;
+} */
+ 
+
+.front{
+    width: 270px;
+   // border: 2px solid;
+    border-radius: 8px; 
+   top: 205px;
+    left: 60px;
+    background-color:  rgba(178, 61, 60, 0.9);    
+//background: #09f;
+//    -webkit-transform: rotate(15deg) skew(15deg, 15deg);
+//    -moz-transform: rotate(15deg) skew(15deg, 15deg);        
+//    opacity: 1;
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+ 
+/*
+.right{
+    background-color:  rgba(178, 61, 60, 0.95);
+    border: 2px solid;
+    border-color:black;
+    top: 178px;
+    left: 330px;
+height:177px;
+width: 50px;
+    -webkit-transform: rotate(-10deg) skew(-10deg, -10deg);
+    -moz-transform: rotate(-10deg) skew(-10deg, -10deg);    
+-ms-transform: rotate(-10deg) skew(-10deg, -10deg);    
+
+//opacity: 0.4;
+-webkit-box-shadow: 0px 5px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 2px 0px rgba(0,0,0,0.75);
+
+box-shadow: 0px 5px 2px 0px rgba(0,0,0,0.75);
+
+}
+*/
+
+ul{
+	line-height: 36px;
+}
+
+.navi a{
+        color:  white;
+text-transform: uppercase;
+font-weight: bold;
+text-decoration:none;
+text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+}
+.navi a:hover{
+color:black;
+text-decoration: underline;
+}
+
+
+.navi {
+display: block;
+line-height:48px;
+color:white
+}
+
+section{
+height: 110%;
+}
+
+
+.message{
+border: 2px dotted;
+border-radius: 8px;
+//border-color: gray;
+background-color:  rgba(255, 255, 210,0.5);
+border: 2px dotted;
+padding: 5%;
+z-index:1;
+position: relative;
+margin-bottom: 3%;
+}
+
+#logo{
+	width: 30%;
+	vertical-align: bottom;
+}
+

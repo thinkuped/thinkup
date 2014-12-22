@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="ThinkUp provides specialized test prep and academic support services in Chattanooga, Tennessee and online worldwide."/>
+<meta name="keywords" content="tutoring SAT ACT college test prep Chattanooga"/> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<title>Think Up!  Education</title>
+<meta name="robots" content="index,follow"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript" src="jquery.js"></script>
+ <script type="text/javascript">
+      var HOME_IMAGES = [
+      
+      "url(images/1.jpg)",
+      "url(images/2.jpg)",
+      "url(images/3.jpg)",
+      "url(images/4.jpg)",
+      "url(images/5.jpg)", 
+      "url(images/6.jpg)",
+"url(images/7.jpg)",
+"url(images/8.jpg)",
+"url(images/9.jpg)",
+"url(images/10.jpg)",
+"url(images/11.jpg)",
+"url(images/12.jpg)"
+      ];
+
+      var HOME_IMG_TRANSITION_TIME = 20000;
+      var current_home_img = -1;
+
+      $(function() {
+      setInterval(home_img_transition,HOME_IMG_TRANSITION_TIME);
+      $("#current_img").attr({src:HOME_IMAGES[1]});
+      
+      $("#next_img").attr({src:HOME_IMAGES[2]});
+      $("#current_img,#next_img").click(function() {
+      home_img_transition();
+      });
+      });
+
+      function home_img_transition() {
+      current_home_img = current_home_img >= HOME_IMAGES.length-1 ? 0 : current_home_img+1;
+      var next_img = current_home_img+1 > HOME_IMAGES.length-1 ? 0 : current_home_img+1;
+
+     // $("#current_img").stop().attr({src:HOME_IMAGES[current_home_img]}).css({"opacity":1}).animate({"opacity":0.3},HOME_IMG_TRANSITION_TIME/5);
+$('.bg').css("background-image", HOME_IMAGES[current_home_img]);  
+     
+ $("#next_img").stop().attr({src:HOME_IMAGES[next_img]}).css({"opacity":0.3}).animate({"opacity":1},HOME_IMG_TRANSITION_TIME/4);
+      //console.log("current:"+current_home_img+" next:"+next_img);
+      }
+      </script> 
+
+
+
+	
+</head>
+
+<body>
+	<header><a id="site-title" href="index.html"><img id="logo" src="logo.png" alt="Think Up Education"/></a></header>
+<div class="bg">
+
+</div> 
+	<nav>
+<div class="face right"></div>
+<div class="face top"></div>
+		
+<div class="face front">
+<ul>
+			<li class="navi"><a href="getting_started.html">Getting Started</a></li>
+			<li class="navi"><a href="subjects.html">Courses Covered</a></li>
+			<li class="navi"><a href="test_prep.html">Test Prep Programs</a></li>
+			
+		</ul>
+</div>	
+</nav>
+ 
+	
+	<article>
+		<h1>Education for the 21st Century</h1>
+	<section>
+
+	<div class="message">	
+	  <p class="message_title"><em>A Message for Parents:</em></p> 
+		<p>Is there a child in your family looking to boost his or her score on the SAT or ACT? Does the current school year include a class that is or could be a source of frustration? Would you like to know more about the details of college admissions in order to maximize your child's chances of entry or winning scholarships at selective schools?</p>
+		<p>We can help. We are a small, tightly focused team of academic professionals who aim to provide the most effective assistance that is specific for your child's situation. We use tested and effective online tools that are simple and avoid tedium. </p>
+		</div>
+<div class="message">
+		<p class="message_title"><em>A Message for Students:</em> 
+		<p>One of the worst things in an academic setting is the feeling of fruitless or misspent energy. We work to catalyze your effort to  achieve maximum results in your classwork as well as the standardized tests your trajectory demands (SAT, ACT,
+ GRE, etc.). We minimize boilerplate explanations and offer the clearest guidance available on tests, classes, or college guidance. In return we ask for your sincere efforts and patience. </p>
+</div>
+<div class="message">
+<p class="message_title"><em>A Message for Everyone:</em>
+		<strong><p>1 on 1 tutoring has been scientifically proven* to be the 
+single most effective method of instruction for learning and retention. 
+ We now have the technology to do that online, just about anywhere, at 
+any time!</p></strong>
+</div>
+
+		<a id="email" href="mailto:Thinkuped@gmail.com">Thinkuped@gmail.com</a>
+		<p>Contact us today for an individualized consultation.</p>
+		<br/>
+		<p>*Bloom, Benjamin S. "The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring." <em>Educational researcher</em> (1984): 4-16. 
+	</section>
+	</article>
+
+	<footer> ThinkUpEd 2014 | thinkuped@gmail.com</footer>
+
+
+
+
+</body></html>
